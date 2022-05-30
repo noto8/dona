@@ -1,0 +1,16 @@
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to right, transparent 50%, #b7b7b7 50%);
+    background-clip: content-box;
+    &:hover{
+        background: #b7b7b7;
+    }
+}
+::-webkit-scrollbar-corner {
+    background: rgba(0,0,0,0);
+}
