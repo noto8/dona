@@ -52,6 +52,7 @@ document.querySelectorAll('section.interface nav input').forEach(radio => {
         document.querySelector('section.interface article div#d'+radio.id+'').style.display = 'block';
     } else {
         document.querySelector('section.interface label[for="'+radio.id+'"] .label-bg').style.background = 'none';
+        document.querySelector('section.interface article div#d'+radio.id).style.display = 'none';
     }
 });
 
